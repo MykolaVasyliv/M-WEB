@@ -1,0 +1,269 @@
+body{
+	margin: auto auto;
+	background-color: #000;
+	color: rgba(255, 255, 255, 0.7);
+}
+/*******************************************
+ ****************** HEADER *********************
+ ******************************************/
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+div.menu{
+	background-color: #000;
+	height: 70px;
+	text-align: center;
+	padding-left: 6px;
+}
+div.menu h1.logo{
+	color: #e30713;
+	font-size: 40px;
+	margin-top: 10px;
+
+}
+div.menu ul{
+	list-style-type: none;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+div.menu ul li{
+	display: inline-block;
+	margin: 0 15px;
+
+}
+div.menu ul li a{
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+
+}
+div.menu ul li a:hover{
+	color: #e30713;
+	border-bottom: 1px solid #e30713;
+	transition-property: background-color, color, border;
+	transition-duration: 1s;
+}
+div.social a{
+	display: inline-block;
+	padding-top: 10px;
+}
+.bi-instagram {
+    font-size: 40px;
+    color: white;
+}
+.bi-instagram:hover {
+    color: #e30713;
+    transition-property: color;
+    transition-duration: 1s;
+}
+/*******************************************
+ ****************** logo-img *********************
+ ******************************************/
+div.web_design img{
+	max-height: 500px;
+}
+/*******************************************
+ ****************** text *********************
+ ******************************************/
+div.text{
+	position: relative;
+}
+div.text h2{
+	font-size: 40px;
+	text-align: center;
+	margin: 50px auto;
+}
+div.text h3{
+	font-size: 90px;
+	position: absolute;
+	top: 20px;
+	color: rgba(255, 255, 255, 0.1);
+	width: 100%;
+    text-align: center;
+}
+div.text p{
+	font-size: 24px;
+	text-align: center;
+	margin: 0px auto;
+}
+div.text span{
+	color: #e30713;
+}
+/*******************************************
+ ****************** websites *********************
+ ******************************************/
+section.websites{
+	height: 380px;
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+section.websites div.websites-row{
+	
+}
+section.websites div.lendings{
+	background-image: url(../img/lendings.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 380px;
+	box-sizing: border-box;
+}
+section.websites div.events{
+	background-image: url(../img/events.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 380px;
+	box-sizing: border-box;
+}
+section.websites div.portfolio{
+	background-image: url(../img/portfolio.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	height: 380px;
+	box-sizing: border-box;
+}
+section.websites div.catalog{
+	background-image: url(../img/catalog.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 380px;
+	box-sizing: border-box;
+}
+section.websites h3{
+	font-size: 36px;
+	color: #e30713;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 0;
+	padding-top: 140px;
+}
+section.websites h3:hover{
+	background-color: rgba(227, 7, 19, 0.5);
+	color: rgba(255, 255, 255, 0.7);
+	transition-property: color, background-color;
+    transition-duration: 0.5s;
+}
+/*******************************************
+ ****************** portfolio *********************
+ ******************************************/
+section.portfolio{
+	height: auto;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 80px;
+	position: relative;
+}
+section.portfolio h2{
+	font-size: 48px;
+	color: #e30713;
+}
+section.portfolio div.line{
+	width: 130px;
+    height: 5px;
+    display: block;
+    margin: 20px auto;
+    background: #e30713;
+    background-size: contain;
+    opacity: 1;
+}
+section.portfolio h3{
+	font-size: 90px;
+	position: absolute;
+	top: -35px;
+	color: rgba(255, 255, 255, 0.1);
+	width: 100%;
+    text-align: center;
+}
+section.portfolio div.row-jobs{
+	
+}
+section.portfolio div.row-jobs div.sites{
+	padding: 0 20px;
+}
+section.portfolio div.row-jobs div.sites a{
+	border-radius: 50%;
+	display: block;
+}
+section.portfolio div.row-jobs div.sites img{
+	border: 3px solid rgba(255, 255, 255, 0.7);
+	border-radius: 50%;
+	height: auto;
+	max-width: 100%;
+	display: block;
+    box-sizing: border-box;
+}
+section.portfolio div.row-jobs div.sites img:hover{
+	border: 3px solid #e30713;
+	transition-property: border;
+    transition-duration: 0.5s;
+}
+/*******************************************
+ ****************** contacts *********************
+ ******************************************/
+section.contacts{
+	height: auto;
+	background-color: #e30713;
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+}
+section.contacts h2{
+	font-size: 48px;
+	color: #000;
+}
+section.contacts div.line{
+	width: 200px;
+    height: 5px;
+    display: block;
+    margin: 10px auto;
+    background: #000;
+    background-size: contain;
+    opacity: 1;
+}
+section.contacts h3{
+	font-size: 90px;
+	position: absolute;
+	top: -30px;
+	color: rgba(255, 255, 255, 0.1);
+	width: 100%;
+    text-align: center;
+}
+section.contacts h4{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 30px;
+	margin: 15px 0;
+}
+section.contacts span{
+	color: #000;
+	font-size: 24px;
+}
+section.contacts a{
+	display: inline-block;
+	margin-top: 20px;
+}
+section.contacts i.bi-instagram {
+    font-size: 40px;
+    color: #000;
+
+}
+section.contacts i.bi-instagram:hover {
+    color: #fff;
+    transition-property: color;
+    transition-duration: 1s;
+}
+/*******************************************
+ ****************** footer *********************
+ ******************************************/
+footer{
+	text-align: center;
+	max-height: 40px;
+}
+footer h6{
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.7);
+	margin: 20px auto;
+}
