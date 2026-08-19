@@ -267,3 +267,87 @@ footer h6{
 	color: rgba(255, 255, 255, 0.7);
 	margin: 20px auto;
 }
+
+/*******************************************
+ ****************** adaptive *********************
+ ******************************************/
+
+/* `xs` returns only a ruleset and no media query*/
+/* ... { ... }*/
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	div.menu h1.logo {
+    color: #e30713;
+    font-size: 28px;
+    margin-top: 16px;
+	}
+	div.menu ul{
+	font-size: 14px;
+	margin-top: 16px;
+	}
+	.bi-instagram{
+	font-size: 32px;
+	}
+	.bi-instagram:hover{
+	font-size: 32px;
+	}
+	div.social a{
+	padding-top: 16px;
+	}
+	div.text h3{
+	font-size: 70px;
+	}
+	div.text h2{
+	font-size: 30px;
+	}
+	div.text p{
+	font-size: 20px;
+	}
+	section.websites{
+	height: 300px;
+	}
+	section.websites h3{
+	font-size: 26px;
+	}
+	section.websites div.lendings{
+	height: 300px;
+	}
+	section.websites div.events{
+	height: 300px;
+	}
+	section.websites div.portfolio{
+	height: 300px;
+	}
+	section.websites div.catalog{
+	height: 300px;
+	}
+	section.portfolio{
+	padding-top: 20px;
+	}
+	section.portfolio h3{
+	font-size: 70px;
+	}
+	section.portfolio h2{
+	font-size: 36px;
+	}
+	section.contacts h3{
+	font-size: 70px;
+	top: -12px;
+	}
+	section.contacts h2{
+	font-size: 38px;
+	}
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/* `xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { ... }
