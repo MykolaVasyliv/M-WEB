@@ -425,10 +425,10 @@ section.websites h3:hover{
 		height: 200px;
 	}
 	section.websites div h3:hover span{
-		font-size: 10px;
+		font-size: 8px;
 	}
 	section.websites h3{
-		font-size: 12px;
+		font-size: 10px;
 		padding-top: 80px;
 	}
 	section.websites h3:hover{
