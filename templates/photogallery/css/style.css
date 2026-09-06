@@ -1,0 +1,163 @@
+:root{
+	font-size: calc(1vw + 1.3em);
+	box-sizing: border-box;
+	font-family: "Bad Script", cursive, sans-serif;
+}
+.bad-script-regular {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.shablon{
+	display: inline-block;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	z-index: 2;	
+}
+.shablon-p{
+	color: rgba(255, 255, 255, 0.2);;
+	text-overflow: clip;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.9em;
+}
+body{
+	margin: auto auto;
+	background: #000;
+}
+a{
+	color: #e30713;
+	text-decoration: none;
+}
+a:hover{
+	border-bottom: 1px solid #e30713;
+	transition-property: border-bottom;
+  	transition-duration: 0.2s;
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+	color: #e30713;
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	font-size: 0.45em;
+	padding: 0 5px;
+	font-weight: bold;
+}
+h3{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 0.9em;
+	margin: 5px 0;
+	padding-top: calc(1vw + 1.1em);
+}
+img{
+	border: 3px solid #e30713;
+	border-radius: 20px;
+	display: inline-block;
+	width: 90%;
+}
+.line{
+	width: 200px;
+    height: 2px;
+    display: block;
+    margin: 3px auto;
+    background: #e30713;
+    background-size: contain;
+    opacity: 1;
+    margin-bottom: 0.2em;
+}
+/*****************************************
+***************** header *****************
+******************************************/
+header{
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	border-bottom: 1px solid #e30713;
+}
+.menu{
+	padding-left: calc(1vw + 1.2em);
+	padding-right: calc(1vw + 1.2em);
+}
+.logo{
+	font-size: 1em;
+	color: #e30713;
+	margin-top: calc(1vw + 0.5em);
+	margin-bottom: 0.3em;
+}
+.menu-inst{
+	margin-top: calc(1vw + 0.5em);
+	text-align: right;
+}
+
+/*****************************************
+***************** main *****************
+******************************************/
+
+.main{
+	text-align: center;
+	padding-top: 5em;
+}
+.main h2{
+	font-size: 0.6em;
+	color: rgba(255, 255, 255, 0.7);
+	padding-left: calc(1vw + 1.2em);
+	padding-right: calc(1vw + 1.2em);
+}
+.main span{
+	color: #e30713;
+}
+.social{
+	font-size: 1.3em;
+	padding: 20px 0;
+}
+
+/*****************************************
+***************** portret *****************
+******************************************/
+.portret{
+	text-align: center;
+}
+.galery{
+	display: inline-block;
+	padding: auto 0;
+	margin: 20px 0;
+}
+
+/*****************************************
+***************** footer *****************
+******************************************/
+.footer{
+	margin: 10px 0;
+	border-top: 1px solid #e30713;
+	padding: 0 0.2em;
+}
+.social-footer{
+	font-size: 1.2em;
+	padding: 8px 0;
+}
+h4{
+	font-size: 0.5em;
+	margin: 0;
+	color: #e30713;
+}
+.logo-footer{
+	font-size: 1em;
+	color: #e30713;
+	text-align: right;
+}
+
+/*****************************************
+***************** adaptive *****************
+******************************************/
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+nav{
+	display: none;
+}
+}
